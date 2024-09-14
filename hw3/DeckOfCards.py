@@ -34,9 +34,11 @@ class DeckOfCards():
             print(card.face, "of", card.suit, end=", ")
         print("---")
         
-    def get_card(self):
+    def get_card(self, name, idx):
         self.play_idx += 1
-        return self.deck[self.play_idx - 1]
+        card = self.deck[self.play_idx - 1]
+        print('{0} card {1} is {2}'.format(name, idx, str(card)))
+        return card
         
         
 
