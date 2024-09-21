@@ -12,12 +12,17 @@ class Employee:
 
 # Instantiating the Employee object with name = "John" and salary = 5000
 emp = Employee("John", 5000)
+emp2 = Employee("Chase", 100000)
 
 # Increasing the salary by 10%
 emp.increase_salary(10)
 
-# Print the updated salary
+# Increasing the salary by 50%
+emp2.increase_salary(50)
+
+# Print the updated salaries
 print(f"Updated salary for {emp.name}: {emp.salary}")
+print(f"Updated salary for {emp2.name}: {emp2.salary}")
 
 # ChatGPT session: Code generated with assistance from ChatGPT.
 # Prompt: "Please write a Python program to solve the question about Employee class salary increase."
