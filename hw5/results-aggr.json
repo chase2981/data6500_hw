@@ -1,0 +1,14 @@
+{
+    "overall_avg_daily_cases": 1395.78,
+    "state_with_highest_avg_daily_cases": {
+        "state": "ca",
+        "avg_cases": 9488.73
+    },
+    "state_with_lowest_avg_daily_cases": {
+        "state": "as",
+        "avg_cases": 0.0
+    },
+    "month_with_highest_cases": "2020-03",
+    "month_with_lowest_cases": "2020-10",
+    "state_with_most_zero_case_days": "al"
+}

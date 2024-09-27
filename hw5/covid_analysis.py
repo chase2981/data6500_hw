@@ -30,7 +30,7 @@ print(state_codes)
 
 # Function to get COVID data for a state (checks if the file exists first)
 def fetch_covid_data(state_code):
-    filename = f"hw5/{state_code}.json"
+    filename = f"hw5/api_results/{state_code}.json"
     
     # Check if the JSON file already exists
     if os.path.exists(filename):
@@ -53,7 +53,7 @@ def fetch_covid_data(state_code):
 
 # Function to save JSON data into a file
 def save_json(state_code, data):
-    filename = f"hw5/{state_code}.json"
+    filename = f"hw5/api_results/{state_code}.json"
     with open(filename, 'w') as f:
         json.dump(data, f, indent=4)
 
