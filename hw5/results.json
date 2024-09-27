@@ -1,0 +1,442 @@
+{
+    "al": {
+        "state_name": "AL",
+        "average_new_daily_cases": 1365.63,
+        "date_with_highest_cases": 20210105,
+        "most_recent_date_with_no_new_cases": 20210130,
+        "month_with_highest_cases": "2020-12",
+        "month_with_lowest_cases": "2020-03"
+    },
+    "ar": {
+        "state_name": "AR",
+        "average_new_daily_cases": 885.06,
+        "date_with_highest_cases": 20210101,
+        "most_recent_date_with_no_new_cases": 20201114,
+        "month_with_highest_cases": "2021-01",
+        "month_with_lowest_cases": "2020-03"
+    },
+    "as": {
+        "state_name": "AS",
+        "average_new_daily_cases": 0.0,
+        "date_with_highest_cases": 20210307,
+        "most_recent_date_with_no_new_cases": 20210307,
+        "month_with_highest_cases": "2021-03",
+        "month_with_lowest_cases": "2021-03"
+    },
+    "az": {
+        "state_name": "AZ",
+        "average_new_daily_cases": 2239.71,
+        "date_with_highest_cases": 20210103,
+        "most_recent_date_with_no_new_cases": 20200315,
+        "month_with_highest_cases": "2021-01",
+        "month_with_lowest_cases": "2020-03"
+    },
+    "ca": {
+        "state_name": "CA",
+        "average_new_daily_cases": 9488.73,
+        "date_with_highest_cases": 20201216,
+        "most_recent_date_with_no_new_cases": 20200313,
+        "month_with_highest_cases": "2020-12",
+        "month_with_lowest_cases": "2020-03"
+    },
+    "co": {
+        "state_name": "CO",
+        "average_new_daily_cases": 1183.2,
+        "date_with_highest_cases": 20201113,
+        "most_recent_date_with_no_new_cases": 20200315,
+        "month_with_highest_cases": "2020-11",
+        "month_with_lowest_cases": "2020-03"
+    },
+    "ct": {
+        "state_name": "CT",
+        "average_new_daily_cases": 764.96,
+        "date_with_highest_cases": 20201228,
+        "most_recent_date_with_no_new_cases": 20210307,
+        "month_with_highest_cases": "2020-12",
+        "month_with_lowest_cases": "2020-02"
+    },
+    "dc": {
+        "state_name": "DC",
+        "average_new_daily_cases": 112.55,
+        "date_with_highest_cases": 20201227,
+        "most_recent_date_with_no_new_cases": 20201225,
+        "month_with_highest_cases": "2021-01",
+        "month_with_lowest_cases": "2020-03"
+    },
+    "de": {
+        "state_name": "DE",
+        "average_new_daily_cases": 240.75,
+        "date_with_highest_cases": 20210107,
+        "most_recent_date_with_no_new_cases": 20200911,
+        "month_with_highest_cases": "2020-12",
+        "month_with_lowest_cases": "2020-03"
+    },
+    "fl": {
+        "state_name": "FL",
+        "average_new_daily_cases": 4725.76,
+        "date_with_highest_cases": 20210102,
+        "most_recent_date_with_no_new_cases": 20210101,
+        "month_with_highest_cases": "2021-01",
+        "month_with_lowest_cases": "2020-02"
+    },
+    "ga": {
+        "state_name": "GA",
+        "average_new_daily_cases": 2773.67,
+        "date_with_highest_cases": 20201103,
+        "most_recent_date_with_no_new_cases": 20200306,
+        "month_with_highest_cases": "2021-01",
+        "month_with_lowest_cases": "2020-03"
+    },
+    "gu": {
+        "state_name": "GU",
+        "average_new_daily_cases": 21.7,
+        "date_with_highest_cases": 20201109,
+        "most_recent_date_with_no_new_cases": 20210307,
+        "month_with_highest_cases": "2020-10",
+        "month_with_lowest_cases": "2021-03"
+    },
+    "hi": {
+        "state_name": "HI",
+        "average_new_daily_cases": 77.78,
+        "date_with_highest_cases": 20200819,
+        "most_recent_date_with_no_new_cases": 20200826,
+        "month_with_highest_cases": "2020-08",
+        "month_with_lowest_cases": "2020-05"
+    },
+    "ia": {
+        "state_name": "IA",
+        "average_new_daily_cases": 769.44,
+        "date_with_highest_cases": 20201109,
+        "most_recent_date_with_no_new_cases": 20200308,
+        "month_with_highest_cases": "2020-11",
+        "month_with_lowest_cases": "2020-03"
+    },
+    "id": {
+        "state_name": "ID",
+        "average_new_daily_cases": 472.49,
+        "date_with_highest_cases": 20201210,
+        "most_recent_date_with_no_new_cases": 20210301,
+        "month_with_highest_cases": "2020-12",
+        "month_with_lowest_cases": "2020-03"
+    },
+    "il": {
+        "state_name": "IL",
+        "average_new_daily_cases": 3247.51,
+        "date_with_highest_cases": 20201113,
+        "most_recent_date_with_no_new_cases": 20200311,
+        "month_with_highest_cases": "2020-11",
+        "month_with_lowest_cases": "2020-03"
+    },
+    "in": {
+        "state_name": "IN",
+        "average_new_daily_cases": 1779.37,
+        "date_with_highest_cases": 20201203,
+        "most_recent_date_with_no_new_cases": 20200313,
+        "month_with_highest_cases": "2020-12",
+        "month_with_lowest_cases": "2020-02"
+    },
+    "ks": {
+        "state_name": "KS",
+        "average_new_daily_cases": 806.16,
+        "date_with_highest_cases": 20201123,
+        "most_recent_date_with_no_new_cases": 20210307,
+        "month_with_highest_cases": "2020-11",
+        "month_with_lowest_cases": "2020-03"
+    },
+    "ky": {
+        "state_name": "KY",
+        "average_new_daily_cases": 1119.1,
+        "date_with_highest_cases": 20210102,
+        "most_recent_date_with_no_new_cases": 20210101,
+        "month_with_highest_cases": "2021-01",
+        "month_with_lowest_cases": "2020-03"
+    },
+    "la": {
+        "state_name": "LA",
+        "average_new_daily_cases": 1185.2,
+        "date_with_highest_cases": 20210106,
+        "most_recent_date_with_no_new_cases": 20210306,
+        "month_with_highest_cases": "2021-01",
+        "month_with_lowest_cases": "2021-03"
+    },
+    "ma": {
+        "state_name": "MA",
+        "average_new_daily_cases": 1438.82,
+        "date_with_highest_cases": 20210102,
+        "most_recent_date_with_no_new_cases": 20210101,
+        "month_with_highest_cases": "2020-12",
+        "month_with_lowest_cases": "2020-02"
+    },
+    "md": {
+        "state_name": "MD",
+        "average_new_daily_cases": 1052.5,
+        "date_with_highest_cases": 20201204,
+        "most_recent_date_with_no_new_cases": 20200308,
+        "month_with_highest_cases": "2020-12",
+        "month_with_lowest_cases": "2020-03"
+    },
+    "me": {
+        "state_name": "ME",
+        "average_new_daily_cases": 125.12,
+        "date_with_highest_cases": 20210102,
+        "most_recent_date_with_no_new_cases": 20210124,
+        "month_with_highest_cases": "2021-01",
+        "month_with_lowest_cases": "2020-03"
+    },
+    "mi": {
+        "state_name": "MI",
+        "average_new_daily_cases": 1763.6,
+        "date_with_highest_cases": 20201127,
+        "most_recent_date_with_no_new_cases": 20210307,
+        "month_with_highest_cases": "2020-11",
+        "month_with_lowest_cases": "2020-06"
+    },
+    "mn": {
+        "state_name": "MN",
+        "average_new_daily_cases": 1335.18,
+        "date_with_highest_cases": 20201128,
+        "most_recent_date_with_no_new_cases": 20210101,
+        "month_with_highest_cases": "2020-11",
+        "month_with_lowest_cases": "2020-03"
+    },
+    "mo": {
+        "state_name": "MO",
+        "average_new_daily_cases": 1313.23,
+        "date_with_highest_cases": 20201114,
+        "most_recent_date_with_no_new_cases": 20201013,
+        "month_with_highest_cases": "2020-11",
+        "month_with_lowest_cases": "2020-03"
+    },
+    "mp": {
+        "state_name": "MP",
+        "average_new_daily_cases": 0.41,
+        "date_with_highest_cases": 20210221,
+        "most_recent_date_with_no_new_cases": 20210306,
+        "month_with_highest_cases": "2020-10",
+        "month_with_lowest_cases": "2021-03"
+    },
+    "ms": {
+        "state_name": "MS",
+        "average_new_daily_cases": 813.06,
+        "date_with_highest_cases": 20210107,
+        "most_recent_date_with_no_new_cases": 20201025,
+        "month_with_highest_cases": "2020-12",
+        "month_with_lowest_cases": "2020-03"
+    },
+    "mt": {
+        "state_name": "MT",
+        "average_new_daily_cases": 275.72,
+        "date_with_highest_cases": 20201114,
+        "most_recent_date_with_no_new_cases": 20210101,
+        "month_with_highest_cases": "2020-11",
+        "month_with_lowest_cases": "2020-05"
+    },
+    "nc": {
+        "state_name": "NC",
+        "average_new_daily_cases": 2363.62,
+        "date_with_highest_cases": 20201226,
+        "most_recent_date_with_no_new_cases": 20210307,
+        "month_with_highest_cases": "2021-01",
+        "month_with_lowest_cases": "2020-03"
+    },
+    "nd": {
+        "state_name": "ND",
+        "average_new_daily_cases": 274.29,
+        "date_with_highest_cases": 20201114,
+        "most_recent_date_with_no_new_cases": 20210101,
+        "month_with_highest_cases": "2020-11",
+        "month_with_lowest_cases": "2020-03"
+    },
+    "ne": {
+        "state_name": "NE",
+        "average_new_daily_cases": 524.61,
+        "date_with_highest_cases": 20201117,
+        "most_recent_date_with_no_new_cases": 20210117,
+        "month_with_highest_cases": "2020-11",
+        "month_with_lowest_cases": "2020-02"
+    },
+    "nh": {
+        "state_name": "NH",
+        "average_new_daily_cases": 208.29,
+        "date_with_highest_cases": 20210103,
+        "most_recent_date_with_no_new_cases": 20210101,
+        "month_with_highest_cases": "2020-12",
+        "month_with_lowest_cases": "2020-03"
+    },
+    "nj": {
+        "state_name": "NJ",
+        "average_new_daily_cases": 2072.98,
+        "date_with_highest_cases": 20210113,
+        "most_recent_date_with_no_new_cases": 20200307,
+        "month_with_highest_cases": "2021-01",
+        "month_with_lowest_cases": "2020-02"
+    },
+    "nm": {
+        "state_name": "NM",
+        "average_new_daily_cases": 507.94,
+        "date_with_highest_cases": 20201119,
+        "most_recent_date_with_no_new_cases": 20200311,
+        "month_with_highest_cases": "2020-11",
+        "month_with_lowest_cases": "2020-03"
+    },
+    "nv": {
+        "state_name": "NV",
+        "average_new_daily_cases": 804.86,
+        "date_with_highest_cases": 20210107,
+        "most_recent_date_with_no_new_cases": 20210306,
+        "month_with_highest_cases": "2020-12",
+        "month_with_lowest_cases": "2020-03"
+    },
+    "ny": {
+        "state_name": "NY",
+        "average_new_daily_cases": 4531.45,
+        "date_with_highest_cases": 20210115,
+        "most_recent_date_with_no_new_cases": 20200304,
+        "month_with_highest_cases": "2021-01",
+        "month_with_lowest_cases": "2020-08"
+    },
+    "oh": {
+        "state_name": "OH",
+        "average_new_daily_cases": 2658.89,
+        "date_with_highest_cases": 20201208,
+        "most_recent_date_with_no_new_cases": 20210101,
+        "month_with_highest_cases": "2020-12",
+        "month_with_lowest_cases": "2020-03"
+    },
+    "ok": {
+        "state_name": "OK",
+        "average_new_daily_cases": 1172.12,
+        "date_with_highest_cases": 20210103,
+        "most_recent_date_with_no_new_cases": 20210101,
+        "month_with_highest_cases": "2021-01",
+        "month_with_lowest_cases": "2020-03"
+    },
+    "or": {
+        "state_name": "OR",
+        "average_new_daily_cases": 425.69,
+        "date_with_highest_cases": 20201205,
+        "most_recent_date_with_no_new_cases": 20210201,
+        "month_with_highest_cases": "2020-12",
+        "month_with_lowest_cases": "2020-03"
+    },
+    "pa": {
+        "state_name": "PA",
+        "average_new_daily_cases": 2563.9,
+        "date_with_highest_cases": 20201205,
+        "most_recent_date_with_no_new_cases": 20201003,
+        "month_with_highest_cases": "2020-12",
+        "month_with_lowest_cases": "2020-03"
+    },
+    "pr": {
+        "state_name": "PR",
+        "average_new_daily_cases": 284.67,
+        "date_with_highest_cases": 20210108,
+        "most_recent_date_with_no_new_cases": 20200601,
+        "month_with_highest_cases": "2020-12",
+        "month_with_lowest_cases": "2020-03"
+    },
+    "ri": {
+        "state_name": "RI",
+        "average_new_daily_cases": 346.18,
+        "date_with_highest_cases": 20201212,
+        "most_recent_date_with_no_new_cases": 20200802,
+        "month_with_highest_cases": "2020-12",
+        "month_with_lowest_cases": "2020-03"
+    },
+    "sc": {
+        "state_name": "SC",
+        "average_new_daily_cases": 1425.11,
+        "date_with_highest_cases": 20210103,
+        "most_recent_date_with_no_new_cases": 20210101,
+        "month_with_highest_cases": "2021-01",
+        "month_with_lowest_cases": "2020-03"
+    },
+    "sd": {
+        "state_name": "SD",
+        "average_new_daily_cases": 310.35,
+        "date_with_highest_cases": 20201127,
+        "most_recent_date_with_no_new_cases": 20210101,
+        "month_with_highest_cases": "2020-11",
+        "month_with_lowest_cases": "2020-03"
+    },
+    "tn": {
+        "state_name": "TN",
+        "average_new_daily_cases": 2125.56,
+        "date_with_highest_cases": 20210102,
+        "most_recent_date_with_no_new_cases": 20210307,
+        "month_with_highest_cases": "2020-12",
+        "month_with_lowest_cases": "2020-03"
+    },
+    "tx": {
+        "state_name": "TX",
+        "average_new_daily_cases": 7261.67,
+        "date_with_highest_cases": 20201101,
+        "most_recent_date_with_no_new_cases": 20200316,
+        "month_with_highest_cases": "2021-01",
+        "month_with_lowest_cases": "2020-03"
+    },
+    "ut": {
+        "state_name": "UT",
+        "average_new_daily_cases": 1024.18,
+        "date_with_highest_cases": 20201127,
+        "most_recent_date_with_no_new_cases": 20210304,
+        "month_with_highest_cases": "2020-11",
+        "month_with_lowest_cases": "2020-03"
+    },
+    "va": {
+        "state_name": "VA",
+        "average_new_daily_cases": 1442.61,
+        "date_with_highest_cases": 20210117,
+        "most_recent_date_with_no_new_cases": 20200827,
+        "month_with_highest_cases": "2021-01",
+        "month_with_lowest_cases": "2020-02"
+    },
+    "vi": {
+        "state_name": "VI",
+        "average_new_daily_cases": 7.6,
+        "date_with_highest_cases": 20210117,
+        "most_recent_date_with_no_new_cases": 20210307,
+        "month_with_highest_cases": "2020-08",
+        "month_with_lowest_cases": "2020-05"
+    },
+    "vt": {
+        "state_name": "VT",
+        "average_new_daily_cases": 43.47,
+        "date_with_highest_cases": 20210102,
+        "most_recent_date_with_no_new_cases": 20210101,
+        "month_with_highest_cases": "2021-01",
+        "month_with_lowest_cases": "2020-05"
+    },
+    "wa": {
+        "state_name": "WA",
+        "average_new_daily_cases": 820.31,
+        "date_with_highest_cases": 20210104,
+        "most_recent_date_with_no_new_cases": 20210301,
+        "month_with_highest_cases": "2021-01",
+        "month_with_lowest_cases": "2020-01"
+    },
+    "wi": {
+        "state_name": "WI",
+        "average_new_daily_cases": 1680.15,
+        "date_with_highest_cases": 20201118,
+        "most_recent_date_with_no_new_cases": 20201018,
+        "month_with_highest_cases": "2020-11",
+        "month_with_lowest_cases": "2020-03"
+    },
+    "wv": {
+        "state_name": "WV",
+        "average_new_daily_cases": 363.61,
+        "date_with_highest_cases": 20210101,
+        "most_recent_date_with_no_new_cases": 20200317,
+        "month_with_highest_cases": "2020-12",
+        "month_with_lowest_cases": "2020-03"
+    },
+    "wy": {
+        "state_name": "WY",
+        "average_new_daily_cases": 147.22,
+        "date_with_highest_cases": 20201123,
+        "most_recent_date_with_no_new_cases": 20210307,
+        "month_with_highest_cases": "2020-11",
+        "month_with_lowest_cases": "2020-03"
+    }
+}
