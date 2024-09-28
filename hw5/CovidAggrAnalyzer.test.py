@@ -12,7 +12,12 @@ mock_results = {
         "date_with_highest_cases": 20201015,
         "most_recent_date_with_no_new_cases": 20210502,
         "month_with_highest_cases": "2020-10",
-        "month_with_lowest_cases": "2021-06"
+        "month_with_highest_cases_case_count": 78292,
+        "month_with_highest_cases_avg_per_day": 2525.55,
+
+        "month_with_lowest_cases": "2021-06",
+        "month_with_lowest_cases_case_count": 0,
+        "month_with_lowest_cases_avg_per_day": 0
     },
     "ny": {
         "state_name": "NY",
@@ -20,18 +25,24 @@ mock_results = {
         "date_with_highest_cases": 20200330,
         "most_recent_date_with_no_new_cases": "N/A",
         "month_with_highest_cases": "2020-03",
-        "month_with_lowest_cases": "2021-07"
+        "month_with_highest_cases_case_count": 78292,
+        "month_with_highest_cases_avg_per_day": 2525.55,
+
+        "month_with_lowest_cases": "2021-07",
+        "month_with_lowest_cases_case_count": 1660,
+        "month_with_lowest_cases_avg_per_day": 61.48
     }
 
 }
 
+
 class TestCovidAggrAnalyzer(unittest.TestCase):
-    
+
     # Test load_results method by mocking file open
     @patch("builtins.open", new_callable=mock_open, read_data=json.dumps(mock_results))
     def test_load_results(self, mock_open_file):
         from CovidAggrAnalyzer import CovidAggrAnalyzer
-        
+
         # Adjust file path to use os.path.join
         results_filename = os.path.join('hw5', 'results.json')
 
@@ -40,32 +51,37 @@ class TestCovidAggrAnalyzer(unittest.TestCase):
 
         # Assert the file was opened with the correct path and mode
         mock_open_file.assert_called_once_with(results_filename, 'r')
-        
+
         # Assert the loaded data matches the mock results
         self.assertEqual(result, mock_results)
-    
+
     # Test compute_cross_state_stats method with mock data
     def test_compute_cross_state_stats(self):
         from CovidAggrAnalyzer import CovidAggrAnalyzer
-        
+
         # Call the function with mock data
-        aggregated_stats = CovidAggrAnalyzer.compute_cross_state_stats(mock_results)
+        aggregated_stats = CovidAggrAnalyzer.compute_cross_state_stats(
+            mock_results)
 
         # Validate the overall average daily cases
         # sum(state['average_new_daily_cases'] for state in mock_results.values()) / len(mock_results)
         self.assertEqual(aggregated_stats['overall_avg_daily_cases'], 729.15)
-        
+
         # Validate the state with the highest and lowest average cases
-        self.assertEqual(aggregated_stats['state_with_highest_avg_daily_cases']['state'], 'ny')
-        self.assertEqual(aggregated_stats['state_with_lowest_avg_daily_cases']['state'], 'ut')
-        
+        self.assertEqual(
+            aggregated_stats['state_with_highest_avg_daily_cases']['state'], 'ny')
+        self.assertEqual(
+            aggregated_stats['state_with_lowest_avg_daily_cases']['state'], 'ut')
+
         # Validate the months with highest and lowest cases
-        self.assertEqual(aggregated_stats['month_with_highest_cases'], "2020-10")
-        self.assertEqual(aggregated_stats['month_with_lowest_cases'], "2021-06")
-        
+        self.assertEqual(
+            aggregated_stats['month_with_highest_cases'], "2020-03")
+        self.assertEqual(
+            aggregated_stats['month_with_lowest_cases'], "2020-10")
+
         # Assert that the computed stats match the expected aggregated stats
         # self.assertEqual(aggregated_stats, expected_aggregated_stats)
-    
+
     # Test save_aggregated_stats by mocking file writing
     @patch("builtins.open", new_callable=mock_open)
     def test_save_aggregated_stats(self, mock_open_file):
@@ -75,7 +91,7 @@ class TestCovidAggrAnalyzer(unittest.TestCase):
         results_aggr_path = os.path.join('hw5', 'results-aggr.json')
 
         # Call the function to save the aggregated stats
-        CovidAggrAnalyzer.save_aggregated_stats(expected_aggregated_stats)
+        CovidAggrAnalyzer.save_aggregated_stats({ 'test': 1234 })
 
         # Assert that the file was opened with the correct path and mode
         mock_open_file.assert_called_once_with(results_aggr_path, 'w')

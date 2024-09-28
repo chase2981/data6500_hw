@@ -1,6 +1,6 @@
 import json
 from collections import defaultdict
-from hw5.CovidAggrAnalyzer import CovidAggrAnalyzer
+from CovidAggrAnalyzer import CovidAggrAnalyzer
 
 
 def main():
