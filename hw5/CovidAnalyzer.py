@@ -33,25 +33,35 @@ class CovidAnalyzer:
 
         # Calculate monthly sums
         monthly_cases = {}
+        monthly_case_counts = {}
         for i in range(len(daily_cases)):
             date_str = str(dates[i])
             year_month = datetime.strptime(date_str, '%Y%m%d').strftime('%Y-%m')
             if year_month in monthly_cases:
                 monthly_cases[year_month] += daily_cases[i]
+                monthly_case_counts[year_month] += 1
             else:
                 monthly_cases[year_month] = daily_cases[i]
+                monthly_case_counts[year_month] = 1
 
         # Find month with highest and lowest cases
         highest_month = max(monthly_cases, key=monthly_cases.get)
+        highest_month_avg_per_day = monthly_cases[highest_month] / monthly_case_counts[highest_month]
         lowest_month = min(monthly_cases, key=monthly_cases.get)
+        lowest_month_avg_per_day = monthly_cases[lowest_month] / monthly_case_counts[lowest_month]
 
         # Output the statistics
         print(f"State name: {state_name}")
         print(f"Average new daily cases: {avg_new_cases:.2f}")
         print(f"Date with highest cases: {max_cases_date}")
+        print(f"Date with highest cases case count: {max_cases}")
         print(f"Most recent date with no new cases: {most_recent_no_cases}")
         print(f"Month with highest cases: {highest_month}")
+        print(f"Month with highest cases case count: {monthly_cases[highest_month]}")
+        print(f"Month with highest cases avg per day: {highest_month_avg_per_day:.2f}")
         print(f"Month with lowest cases: {lowest_month}")
+        print(f"Month with lowest cases case count: {monthly_cases[lowest_month]}")
+        print(f"Month with lowest cases avg per day: {lowest_month_avg_per_day:.2f}")
         print('-' * 40)
 
         # Prepare statistics as a dictionary
@@ -59,9 +69,14 @@ class CovidAnalyzer:
             "state_name": state_name,
             "average_new_daily_cases": round(avg_new_cases, 2),
             "date_with_highest_cases": max_cases_date,
+            "date_with_highest_cases_case_count": max_cases,
             "most_recent_date_with_no_new_cases": most_recent_no_cases,
             "month_with_highest_cases": highest_month,
-            "month_with_lowest_cases": lowest_month
+            "month_with_highest_cases_case_count": monthly_cases[highest_month],
+            "month_with_highest_cases_avg_per_day": round(highest_month_avg_per_day, 2),
+            "month_with_lowest_cases": lowest_month,
+            "month_with_lowest_cases_case_count": monthly_cases[lowest_month],
+            "month_with_lowest_cases_avg_per_day": round(lowest_month_avg_per_day, 2),
         }
 
         return stats

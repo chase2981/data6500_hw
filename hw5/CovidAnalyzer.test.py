@@ -6,6 +6,7 @@ import os
 
 # Mock data for testing
 mock_state_data = [
+    {"date": 20200915, "positiveIncrease": 301},
     {"date": 20201015, "positiveIncrease": 200},
     {"date": 20201016, "positiveIncrease": 300},
     {"date": 20201017, "positiveIncrease": 0},
@@ -31,8 +32,16 @@ class TestCovidAnalyzer(unittest.TestCase):
         # Call the function with mock data
         result = CovidAnalyzer.analyze_state_data("ut", mock_state_data)
 
-        # Assert that the result matches the expected statistics
-        self.assertEqual(result, expected_stats)
+        # Validate
+        self.assertEqual(result['state_name'], "UT")
+        self.assertEqual(result['average_new_daily_cases'], sum([day['positiveIncrease'] for day in mock_state_data]) / len(mock_state_data))
+        self.assertEqual(result['date_with_highest_cases'], 20200915)
+        self.assertEqual(result['most_recent_date_with_no_new_cases'], 20201017)
+        self.assertEqual(result['month_with_highest_cases'], "2020-10")
+        self.assertEqual(result['month_with_lowest_cases'], "2020-09")
+
+        # # Assert that the result matches the expected statistics
+        # self.assertEqual(result, expected_stats)
 
     # Mocking os.path.exists and open to test fetch_covid_data loading from file
     @patch("os.path.exists", return_value=True)
