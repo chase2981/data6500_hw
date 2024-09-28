@@ -12,8 +12,8 @@ mock_results = {
         "date_with_highest_cases": 20201015,
         "most_recent_date_with_no_new_cases": 20210502,
         "month_with_highest_cases": "2020-10",
-        "month_with_highest_cases_case_count": 78292,
-        "month_with_highest_cases_avg_per_day": 2525.55,
+        "month_with_highest_cases_case_count": 7829,
+        "month_with_highest_cases_avg_per_day": 252.55,
 
         "month_with_lowest_cases": "2021-06",
         "month_with_lowest_cases_case_count": 0,
@@ -77,7 +77,7 @@ class TestCovidAggrAnalyzer(unittest.TestCase):
         self.assertEqual(
             aggregated_stats['month_with_highest_cases'], "2020-03")
         self.assertEqual(
-            aggregated_stats['month_with_lowest_cases'], "2020-10")
+            aggregated_stats['month_with_lowest_cases'], "2021-06")
 
         # Assert that the computed stats match the expected aggregated stats
         # self.assertEqual(aggregated_stats, expected_aggregated_stats)

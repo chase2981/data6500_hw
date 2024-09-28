@@ -44,8 +44,8 @@ class CovidAggrAnalyzer:
             # Sum cases for each month across all states
             highest_month = stats['month_with_highest_cases']
             lowest_month = stats['month_with_lowest_cases']
-            monthly_case_sums[highest_month] += avg_cases
-            monthly_case_sums[lowest_month] += avg_cases
+            monthly_case_sums[highest_month] += stats['month_with_highest_cases_avg_per_day']
+            monthly_case_sums[lowest_month] += stats['month_with_lowest_cases_avg_per_day']
 
             # Count zero case days for this state
             most_recent_no_cases = stats['most_recent_date_with_no_new_cases']
