@@ -1,0 +1,934 @@
+{
+    "status": "success",
+    "message": "Request has been successful.",
+    "data": [
+        {
+            "listingId": 30535159,
+            "header": {
+                "headerAddress": "95 S State St",
+                "listingName": "95 State at City Creek",
+                "subtext": "75,585 SF of 5 Star Office Space Available",
+                "location": "Salt Lake City, UT 84111"
+            },
+            "title": "95 State at City Creek",
+            "yearBuilt": "2021",
+            "propertyType": "Office",
+            "size": "75,585 SF",
+            "rent": "$44 - $46/SF/YR",
+            "rentType": "PerSpaceAvailableArea",
+            "propertySubType": [],
+            "buildingSize": "514,074 SF",
+            "creationDate": "2023-01-24T12:00:00-05:00",
+            "lastUpdate": "9/10/2024",
+            "pricePerSF": "$44 - $46/SF/YR",
+            "apartmentStyle": null,
+            "classType": "A",
+            "constructionStatus": "Existing",
+            "totalBuildingSize": "589,945 SF",
+            "lotSize": "0.74 AC",
+            "highlights": [
+                "95 State at City Creek is Salt Lake City’s newest state-of-the-art office tower offering premier office space, up to multiple full floors.  ",
+                "Explore the fifth floor’s tenant 11,000-SF fitness/recreational facility and 7,000-SF outdoor garden terrace, which can accommodate 125 people. ",
+                "Designed as Utah’s first WELL Building by renowned architectural firm SOM with a layout that promotes health, well-being, and sustainability.  ",
+                "95 State at City Creek inspires confidence with its multiple touchless safety features found throughout common areas and the advanced HVAC systems.  ",
+                "Steps from world-class amenities and services, with direct connectivity to City Creek Center via The Link underground pedestrian walkway.  "
+            ],
+            "available_spaces": [
+                {
+                    "name": "6th Floor - Suite 600",
+                    "description": "Gray shell ready for immediate build-out.",
+                    "images": [
+                        "http://vid.ly/dTnHh5eFQ1_yHbNpeX6LoWnJFnGgyWitT0w5UPy-E9o"
+                    ],
+                    "size": "10,985 SF",
+                    "term": "5 - 10 Yrs",
+                    "rentalRate": "$44/SF/YR",
+                    "spaceUse": "Office",
+                    "condition": "Shell Space",
+                    "availability": "Now",
+                    "highlights": [
+                        "Rate includes utilities, building services and property expenses",
+                        "Open Floor Plan Layout",
+                        "Fits 28 - 88 People",
+                        "Space is in Excellent Condition",
+                        "Can be combined with additional space(s) for up to 34,921 SF of adjacent space"
+                    ],
+                    "bestOccupancy": null,
+                    "leaseType": "Full Service Gross",
+                    "ceilingHeight": "0ft",
+                    "amenities": null,
+                    "availableDate": "2022-02-01T12:00:00-05:00"
+                },
+                {
+                    "name": "7th Floor - Suite 700",
+                    "description": "Full 7th floor.",
+                    "images": [
+                        "http://vid.ly/x91keGNkJfN8bQRZSQkYhJPeoAIkF0EvgO890sFQUBk"
+                    ],
+                    "size": "23,936 SF",
+                    "term": "5 - 10 Yrs",
+                    "rentalRate": "$44/SF/YR",
+                    "spaceUse": "Office",
+                    "condition": "Shell Space",
+                    "availability": "Now",
+                    "highlights": [
+                        "Rate includes utilities, building services and property expenses",
+                        "Open Floor Plan Layout",
+                        "Fits 13 - 192 People",
+                        "Space is in Excellent Condition",
+                        "Can be combined with additional space(s) for up to 34,921 SF of adjacent space"
+                    ],
+                    "bestOccupancy": null,
+                    "leaseType": "Full Service Gross",
+                    "ceilingHeight": "0ft",
+                    "amenities": null,
+                    "availableDate": "2022-02-01T12:00:00-05:00"
+                },
+                {
+                    "name": "8th Floor - Suite 880",
+                    "description": null,
+                    "images": [
+                        "http://vid.ly/XFNWghj6a0NIHkC7FU6pcuCakybG9LspCaaJl6IWxxc"
+                    ],
+                    "size": "6,523 SF",
+                    "term": "5 - 10 Yrs",
+                    "rentalRate": "$44/SF/YR",
+                    "spaceUse": "Office",
+                    "condition": "Shell Space",
+                    "availability": "Now",
+                    "highlights": [
+                        "Rate includes utilities, building services and property expenses",
+                        "Open Floor Plan Layout",
+                        "Fits 17 - 53 People",
+                        "Space is in Excellent Condition"
+                    ],
+                    "bestOccupancy": null,
+                    "leaseType": "Full Service Gross",
+                    "ceilingHeight": "0ft",
+                    "amenities": null,
+                    "availableDate": "2022-02-01T12:00:00-05:00"
+                },
+                {
+                    "name": "11th Floor - Suite 1150",
+                    "description": null,
+                    "images": [
+                        "http://vid.ly/vzE3VosOQBVjO96zGIpdaCWgYYG_qdOU7_v0ojmYeZc"
+                    ],
+                    "size": "15,824 SF",
+                    "term": "5 - 10 Yrs",
+                    "rentalRate": "$45/SF/YR",
+                    "spaceUse": "Office",
+                    "condition": "Shell Space",
+                    "availability": "Now",
+                    "highlights": [
+                        "Rate includes utilities, building services and property expenses",
+                        "Open Floor Plan Layout",
+                        "Fits 40 - 127 People",
+                        "Space is in Excellent Condition"
+                    ],
+                    "bestOccupancy": null,
+                    "leaseType": "Full Service Gross",
+                    "ceilingHeight": "0ft",
+                    "amenities": null,
+                    "availableDate": "2022-02-01T12:00:00-05:00"
+                },
+                {
+                    "name": "12th Floor - Suite 1250",
+                    "description": null,
+                    "images": [
+                        "https://images1.loopnet.com/i2/9dn9SfmQ9-HAI23qjoN34A7PWjOZUNu7bFFxEeYqbX0/116/image.jpg",
+                        "https://images1.loopnet.com/i2/9BfYlrVW5awCJKWfGyh6-4V_UbRyAB3eNqKiOJE7pf0/116/image.jpg",
+                        "https://images1.loopnet.com/i2/N7vLf5QGTEAnm_Xz690BTeQWMXGpNDJ_pJVjQc5E_TE/116/image.jpg",
+                        "https://images1.loopnet.com/i2/nEUDsxrk19UdC9TDiKlU1uHFWp4MlOjHTCkpwui-rWQ/116/image.jpg",
+                        "https://images1.loopnet.com/i2/SqVoiftbcCCG0-cqu1nMPP9AToEDqhR2z3A7kw-kCt0/116/image.jpg",
+                        "https://images1.loopnet.com/i2/RJIrqB380iLtaLvd-TBXPE3oXl9tS2vhQQS-jnxd-Eg/116/image.jpg",
+                        "https://images1.loopnet.com/i2/LuvD-6JQyBQ9151qMPaLNhHq0KMyjFW9FQysOsz4spQ/116/image.jpg",
+                        "https://images1.loopnet.com/i2/NAERi1N_itcfE1m4TSSJsaz7CLuh1X-YnrNhViTOUjw/116/image.jpg",
+                        "https://images1.loopnet.com/i2/Nuyif6AiXqnTJOqhCbwtjZ0Yh1QRTDjoaFbb7pF_4j0/116/image.jpg",
+                        "https://my.matterport.com/show/?m=2rZh8fea7TK",
+                        "http://vid.ly/OLjEbffOfTSfZ3GEjLwxlV1SGHpr7oeSldMV8LXRmg0"
+                    ],
+                    "size": "3,489 SF",
+                    "term": "5 - 10 Yrs",
+                    "rentalRate": "$45/SF/YR",
+                    "spaceUse": "Office",
+                    "condition": "Shell Space",
+                    "availability": "Now",
+                    "highlights": [
+                        "Rate includes utilities, building services and property expenses",
+                        "Open Floor Plan Layout",
+                        "Fits 9 - 28 People",
+                        "Space is in Excellent Condition"
+                    ],
+                    "bestOccupancy": null,
+                    "leaseType": "Full Service Gross",
+                    "ceilingHeight": "0ft",
+                    "amenities": null,
+                    "availableDate": "2022-02-01T12:00:00-05:00"
+                },
+                {
+                    "name": "14th Floor - Suite 1480",
+                    "description": null,
+                    "images": [
+                        "http://vid.ly/cwkos0m6FIUP0Kr7VJ1jppFpx3vPP6ukVuDiSZ6PdCo"
+                    ],
+                    "size": "2,598 SF",
+                    "term": "Negotiable",
+                    "rentalRate": "$46/SF/YR",
+                    "spaceUse": "Office",
+                    "condition": null,
+                    "availability": "Now",
+                    "highlights": [
+                        "Rate includes utilities, building services and property expenses",
+                        "Fits 7 - 21 People"
+                    ],
+                    "bestOccupancy": null,
+                    "leaseType": "Full Service Gross",
+                    "ceilingHeight": "0ft",
+                    "amenities": null,
+                    "availableDate": "2022-05-26T12:00:00-04:00"
+                },
+                {
+                    "name": "15th Floor - Suite 1550",
+                    "description": null,
+                    "images": [
+                        "http://vid.ly/txHi-vhzeMsi_kLUAepthwC-Oci7t2YhtxkIOs-Z168"
+                    ],
+                    "size": "12,230 SF",
+                    "term": "Negotiable",
+                    "rentalRate": "$46/SF/YR",
+                    "spaceUse": "Office",
+                    "condition": null,
+                    "availability": "Now",
+                    "highlights": [
+                        "Rate includes utilities, building services and property expenses",
+                        "Fits 31 - 98 People"
+                    ],
+                    "bestOccupancy": null,
+                    "leaseType": "Full Service Gross",
+                    "ceilingHeight": "0ft",
+                    "amenities": null,
+                    "availableDate": "2023-01-18T12:00:00-05:00"
+                }
+            ],
+            "description": "95 State at City Creek is Salt Lake City’s newest state-of-the-art office tower, offering comfort, convenience, and confidence for modern businesses. Designed by world-renowned architectural firm SOM, this approximately 515,000-square-foot structure redefines Salt Lake City’s skyline with an impressive glass façade and 11-foot floor-to-ceiling windows on each floor. As one enters 95 State at City Creek, the building’s elegant lobby creates an awe-inspiring impression. Top-quality stone finishes, combined with natural wood and comfortable seating areas, create a warm and relaxing environment that extends throughout tenant suites, common areas, and premier amenities.  \n  \n95 State at City Creek was designed to be Utah’s first WELL Building and has achieved Wired Platinum Certifications, and additional plans are in place for LEED Gold Certification. Building materials and operating practices were selected to provide a healthy, sustainable, and productive environment. From the touchless safety features, including a destination elevator system, touchless turnstiles, digital building sign-in, and common areas with touchless entry doorways, to the advanced HVAC systems for temperature control in any sized suite, tenants can focus their energy on growing their business.  \n  \nEmployees enjoy access to numerous amenities and facilities aimed at providing a better work/life balance and a top-of-the-line work environment. On the fifth floor, there is an 11,000-square-foot fitness and recreational facility and a 7,000-square-foot outdoor garden terrace. This landscaped pocket park in the sky is a tranquil place for tenants and their guests to relax and unwind, and the space doubles as an event venue for up to 125 people. For business needs, there is a 5,000-square-foot conference center and two substations for continuous electrical feed in the event of a local power outage. For dining, shopping, and entertainment options, 95 State at City Creek’s lobby directly connects to The Link, a renovated underground pedestrian walkway below State Street that offers direct access to the City Creek Center – no car or coat needed.",
+            "propertyFacts": null,
+            "images": [
+                {
+                    "url": "https://images1.loopnet.com/i2/CevUSS92_uxCB8pB-M_cqA0N4zYL90cPUIaei4cFTn0/116/image.jpg",
+                    "caption": "95 State at City Creek"
+                },
+                {
+                    "url": "http://vid.ly/6r1o0k",
+                    "caption": "ProVideo LoopNet"
+                },
+                {
+                    "url": "https://images1.loopnet.com/i2/m_GXsjl9QqB_QcvBG4KHTpOPxBg8wpMLg2AMr4XC0GY/116/image.jpg",
+                    "caption": "Outdoor Terrace"
+                },
+                {
+                    "url": "https://images1.loopnet.com/i2/zBwV7-eHurHBHgJzXVPM8XAokRvH6tC7_XvAUWMmR9U/116/image.jpg",
+                    "caption": "Entrance"
+                },
+                {
+                    "url": "https://images1.loopnet.com/i2/CpPhfzgkMWTZVxV1DnNm7j03sQp1vAmt1UPBFzQl6JQ/116/image.jpg",
+                    "caption": "Lobby"
+                },
+                {
+                    "url": "https://images1.loopnet.com/i2/Oa88V0YEIWs9ob5cq-1CDw2nHs0beg8yrQ-BYGELotI/116/image.jpg",
+                    "caption": "Lobby - Waiting Room"
+                },
+                {
+                    "url": "https://images1.loopnet.com/i2/qCUqK0GVt16ordOfLjOR2WoFNauD-La7b5qlUBDqlE4/116/image.jpg",
+                    "caption": "Large Conference Room"
+                },
+                {
+                    "url": "https://images1.loopnet.com/i2/YWOAE7g7lTcBqQgChE_oIkdJUaNJtcYe5Q1x96emUNA/116/image.jpg",
+                    "caption": "Outdoor Terrace"
+                },
+                {
+                    "url": "https://images1.loopnet.com/i2/1h2bt-HC6VOnBu5B7K-eg3K1yOACtjDvqvp0Ku0iz2g/116/image.jpg",
+                    "caption": "Outdoor Terrace"
+                },
+                {
+                    "url": "https://images1.loopnet.com/i2/gSRh3RnTFN4BAaPKRFxV5bZ0Ag9noplxVktZ4dCDKvI/116/image.jpg",
+                    "caption": "Fully Equipped Fitness Center"
+                },
+                {
+                    "url": "https://images1.loopnet.com/i2/QTg-0oT6MDwgCjWiLfNGjDhCkWYS8wEQlOA1YudC0Do/116/image.jpg",
+                    "caption": "Fitness Center"
+                },
+                {
+                    "url": "https://images1.loopnet.com/i2/qCWo1aJvnAyNJWp7sSOPBMlAMCOVlTf3utnE9eZo_YE/116/image.jpg",
+                    "caption": "Fitness Center"
+                },
+                {
+                    "url": "https://images1.loopnet.com/i2/npS-toKL5zbF4WktZzBNNe4Xp8tlxpPtbEfHIDPejNA/116/image.jpg",
+                    "caption": "Spin Room in the Fitness Center"
+                },
+                {
+                    "url": "https://images1.loopnet.com/i2/BlNnOQfR2PxS4D6Ak8RimDrxBtzVaTja6m3C-a21_6s/116/image.jpg",
+                    "caption": "Fitness Center"
+                },
+                {
+                    "url": "https://images1.loopnet.com/i2/4s4DJiiwWhwidv6L-_kBE3KpFa_ErZ3Y54O46w5MI3c/116/image.jpg",
+                    "caption": "Hallway"
+                },
+                {
+                    "url": "https://images1.loopnet.com/i2/0sd0RDjE9XAaUnJco0syyy13bXBO-mE2q_XSZ6xtWhw/116/image.jpg",
+                    "caption": "Shower Facilities"
+                },
+                {
+                    "url": "https://images1.loopnet.com/i2/COeSpAjeSEn67zUtzc9CLz0nhNeBQgvVMBmzqhTNfeo/116/image.jpg",
+                    "caption": "Shower Facilities"
+                },
+                {
+                    "url": "https://images1.loopnet.com/i2/msGhjtqEJkUZdvBcsBmIUybOGaDsfvUl_Y7Yx7wBqHU/116/image.jpg",
+                    "caption": "Bathroom"
+                },
+                {
+                    "url": "https://images1.loopnet.com/i2/Np9WOVtbKUtqIzQaTahS3So4ryKs_EWK9rQpwjSDe6g/116/image.jpg",
+                    "caption": "Small Conference Room"
+                },
+                {
+                    "url": "https://images1.loopnet.com/i2/-FLORAMq9fBvy-0PAK7Bl4Blf60hvL15Rx00Xwtovqc/116/image.jpg",
+                    "caption": "Bike Storage"
+                },
+                {
+                    "url": "https://images1.loopnet.com/i2/qIB8WPQfH_RQwVQ0TJ1nU-iyPYfgFuQGH7hT5IPZLTo/116/image.jpg",
+                    "caption": "Kitchen"
+                },
+                {
+                    "url": "https://images1.loopnet.com/i2/nUaWP6TWICTW7-Jpk_hwtp7trOQXCyxa5VUrPEgvvgQ/116/image.jpg",
+                    "caption": "Top of Parking Garage"
+                },
+                {
+                    "url": "https://images1.loopnet.com/i2/YqLkCv-FJgVOj7Xm8AnC2_-028wIpj8F4NbNmIvRw_k/116/image.jpg",
+                    "caption": "Executive Parking"
+                },
+                {
+                    "url": "https://images1.loopnet.com/i2/gazeJmht2OcGHUclxnmtNgz4-uxZZSvif2bCJswECGA/116/image.jpg",
+                    "caption": "Executive Parking"
+                },
+                {
+                    "url": "https://images1.loopnet.com/i2/cq67iK0dT35uch6eZsardMtKtp-yeaNO2Sk7EZGdL64/116/image.jpg",
+                    "caption": "Prestigious Address in Downtown Salt Lake City"
+                },
+                {
+                    "url": "https://images1.loopnet.com/i2/N7BEX_l4--RlQAwryGIm2vk4n4FJZwbJOZ2HL1qiozA/116/image.jpg",
+                    "caption": "LEED Certified"
+                },
+                {
+                    "url": "https://images1.loopnet.com/i2/AHvGjgBylXULGWpW4lkOAi4nGbaYm_9qoB4r7u891l0/116/image.jpg",
+                    "caption": "Soak in Picturesque Views"
+                },
+                {
+                    "url": "https://images1.loopnet.com/i2/5-OMkGaKzcWjGsH5q76iXe_XQU27ArmhaqvRszrb0g0/116/image.jpg",
+                    "caption": "Connected to the Underground Walkway"
+                },
+                {
+                    "url": "https://my.matterport.com/show/?m=tm13zs5sfgV",
+                    "caption": "Lobby"
+                },
+                {
+                    "url": "https://my.matterport.com/show/?m=RjJqmXyJMCd",
+                    "caption": "Outdoor Terrace"
+                },
+                {
+                    "url": "https://my.matterport.com/show/?m=KT8oBjVC2bi",
+                    "caption": "Large Conference Room"
+                },
+                {
+                    "url": "https://my.matterport.com/show/?m=33j9nGHT8z4",
+                    "caption": "Fitness Center"
+                },
+                {
+                    "url": "http://vid.ly/9a8b1m",
+                    "caption": "ProVideo LoopNet"
+                }
+            ],
+            "links": [
+                {
+                    "url": "https://citycreekslc.com/building-95s/",
+                    "description": "Click Here to View the 95 State at City Creek Website"
+                }
+            ],
+            "broker": [
+                {
+                    "contactId": 97709721,
+                    "name": "Jordan Johnson",
+                    "isPremium": true,
+                    "company": "Property Reserve",
+                    "companyLogo": "https://images1.loopnet.com/i2/DV8KbYI0S8Q1qs5nyg0lHsMfccXU-aK6gOTzpSHAWms/{s}/image.jpg",
+                    "brokerImage": "https://images1.loopnet.com/i2/OEvk-G9rSX4r3-5X9KEufGB8K3NSHmnL-4V6l5WazF0/{s}/image.jpg",
+                    "location": "Salt Lake City, UT",
+                    "phone": "801-321-8711",
+                    "email": "jordan.johnson@propertyreserve.org",
+                    "title": "Senior Commercial Leasing Manager",
+                    "phoneInfo": {
+                        "phoneNumber": "8013218711",
+                        "phoneCountryCode": "USA",
+                        "phoneNationalPrefix": "1"
+                    },
+                    "city": "Salt Lake City",
+                    "sc": "UT",
+                    "cc": "USA",
+                    "listingPhone": "3852174036",
+                    "isCTN": true,
+                    "phoneCountryCode": "USA",
+                    "companyLocationId": 24310786,
+                    "isCoStarSubscriber": true,
+                    "isPowerBroker": true,
+                    "roleId": 11
+                }
+            ],
+            "transportation": [
+                {
+                    "vehicule": "Transit/Subway",
+                    "stops": [
+                        {
+                            "name": "City Center",
+                            "dist": {
+                                "Display": "0.5 mi",
+                                "Value": "0.5",
+                                "Code": "[mi_i]",
+                                "Raw": 0.46
+                            },
+                            "drive": {
+                                "Display": "1 min",
+                                "Value": "1",
+                                "Code": "min",
+                                "Raw": 1
+                            },
+                            "walk": {
+                                "Display": "4 min",
+                                "Value": "4",
+                                "Code": "min",
+                                "Raw": 4
+                            },
+                            "logos": [
+                                "http://ahprd1cdn.csgpimgs.com/i2/xDtQ3iRVKqlNT3ylqX-qBX_Ni93B8S5mXHSSUb7o7no/1/image.jpg"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "vehicule": "Transit/Subway",
+                    "stops": [
+                        {
+                            "name": "Gallivan Plaza",
+                            "dist": {
+                                "Display": "0.7 mi",
+                                "Value": "0.7",
+                                "Code": "[mi_i]",
+                                "Raw": 0.68
+                            },
+                            "drive": {
+                                "Display": "2 min",
+                                "Value": "2",
+                                "Code": "min",
+                                "Raw": 2
+                            },
+                            "walk": {
+                                "Display": "8 min",
+                                "Value": "8",
+                                "Code": "min",
+                                "Raw": 8
+                            },
+                            "logos": [
+                                "http://ahprd1cdn.csgpimgs.com/i2/xDtQ3iRVKqlNT3ylqX-qBX_Ni93B8S5mXHSSUb7o7no/1/image.jpg"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "vehicule": "Transit/Subway",
+                    "stops": [
+                        {
+                            "name": "Temple Square",
+                            "dist": {
+                                "Display": "0.7 mi",
+                                "Value": "0.7",
+                                "Code": "[mi_i]",
+                                "Raw": 0.69
+                            },
+                            "drive": {
+                                "Display": "2 min",
+                                "Value": "2",
+                                "Code": "min",
+                                "Raw": 2
+                            },
+                            "walk": {
+                                "Display": "9 min",
+                                "Value": "9",
+                                "Code": "min",
+                                "Raw": 9
+                            },
+                            "logos": [
+                                "http://ahprd1cdn.csgpimgs.com/i2/xDtQ3iRVKqlNT3ylqX-qBX_Ni93B8S5mXHSSUb7o7no/1/image.jpg"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "vehicule": "Transit/Subway",
+                    "stops": [
+                        {
+                            "name": "Main Library",
+                            "dist": {
+                                "Display": "0.9 mi",
+                                "Value": "0.9",
+                                "Code": "[mi_i]",
+                                "Raw": 0.95
+                            },
+                            "drive": {
+                                "Display": "2 min",
+                                "Value": "2",
+                                "Code": "min",
+                                "Raw": 2
+                            },
+                            "walk": {
+                                "Display": "13 min",
+                                "Value": "13",
+                                "Code": "min",
+                                "Raw": 13
+                            },
+                            "logos": [
+                                "http://ahprd1cdn.csgpimgs.com/i2/xDtQ3iRVKqlNT3ylqX-qBX_Ni93B8S5mXHSSUb7o7no/1/image.jpg"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "vehicule": "Transit/Subway",
+                    "stops": [
+                        {
+                            "name": "Courthouse",
+                            "dist": {
+                                "Display": "1.0 mi",
+                                "Value": "1.0",
+                                "Code": "[mi_i]",
+                                "Raw": 0.98
+                            },
+                            "drive": {
+                                "Display": "3 min",
+                                "Value": "3",
+                                "Code": "min",
+                                "Raw": 3
+                            },
+                            "walk": {
+                                "Display": "14 min",
+                                "Value": "14",
+                                "Code": "min",
+                                "Raw": 14
+                            },
+                            "logos": [
+                                "http://ahprd1cdn.csgpimgs.com/i2/xDtQ3iRVKqlNT3ylqX-qBX_Ni93B8S5mXHSSUb7o7no/1/image.jpg"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "vehicule": "Commuter Rail",
+                    "stops": [
+                        {
+                            "name": "North Temple Station",
+                            "dist": {
+                                "Display": "1.2 mi",
+                                "Value": "1.2",
+                                "Code": "[mi_i]",
+                                "Raw": 1.23
+                            },
+                            "drive": {
+                                "Display": "4 min",
+                                "Value": "4",
+                                "Code": "min",
+                                "Raw": 4
+                            },
+                            "walk": {
+                                "Display": "23 min",
+                                "Value": "23",
+                                "Code": "min",
+                                "Raw": 23
+                            },
+                            "logos": [
+                                "http://ahprd1cdn.csgpimgs.com/i2/xDtQ3iRVKqlNT3ylqX-qBX_Ni93B8S5mXHSSUb7o7no/1/image.jpg"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "vehicule": "Commuter Rail",
+                    "stops": [
+                        {
+                            "name": "Warm Springs Relief Point",
+                            "dist": {
+                                "Display": "2.6 mi",
+                                "Value": "2.6",
+                                "Code": "[mi_i]",
+                                "Raw": 2.61
+                            },
+                            "drive": {
+                                "Display": "7 min",
+                                "Value": "7",
+                                "Code": "min",
+                                "Raw": 7
+                            },
+                            "walk": {
+                                "Display": "43 min",
+                                "Value": "43",
+                                "Code": "min",
+                                "Raw": 43
+                            },
+                            "logos": [
+                                "http://ahprd1cdn.csgpimgs.com/i2/xDtQ3iRVKqlNT3ylqX-qBX_Ni93B8S5mXHSSUb7o7no/1/image.jpg"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "vehicule": "Commuter Rail",
+                    "stops": [
+                        {
+                            "name": "Woods Cross",
+                            "dist": {
+                                "Display": "9.6 mi",
+                                "Value": "9.6",
+                                "Code": "[mi_i]",
+                                "Raw": 9.57
+                            },
+                            "drive": {
+                                "Display": "15 min",
+                                "Value": "15",
+                                "Code": "min",
+                                "Raw": 15
+                            },
+                            "walk": {
+                                "Display": "171 min",
+                                "Value": "171",
+                                "Code": "min",
+                                "Raw": 171
+                            },
+                            "logos": [
+                                "http://ahprd1cdn.csgpimgs.com/i2/xDtQ3iRVKqlNT3ylqX-qBX_Ni93B8S5mXHSSUb7o7no/1/image.jpg"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "vehicule": "Commuter Rail",
+                    "stops": [
+                        {
+                            "name": "South Jordan Station",
+                            "dist": {
+                                "Display": "16.6 mi",
+                                "Value": "16.6",
+                                "Code": "[mi_i]",
+                                "Raw": 16.57
+                            },
+                            "drive": {
+                                "Display": "22 min",
+                                "Value": "22",
+                                "Code": "min",
+                                "Raw": 22
+                            },
+                            "walk": {
+                                "Display": "290 min",
+                                "Value": "290",
+                                "Code": "min",
+                                "Raw": 290
+                            },
+                            "logos": [
+                                "http://ahprd1cdn.csgpimgs.com/i2/xDtQ3iRVKqlNT3ylqX-qBX_Ni93B8S5mXHSSUb7o7no/1/image.jpg"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "vehicule": "Commuter Rail",
+                    "stops": [
+                        {
+                            "name": "Farmington",
+                            "dist": {
+                                "Display": "16.9 mi",
+                                "Value": "16.9",
+                                "Code": "[mi_i]",
+                                "Raw": 16.94
+                            },
+                            "drive": {
+                                "Display": "22 min",
+                                "Value": "22",
+                                "Code": "min",
+                                "Raw": 22
+                            },
+                            "walk": {
+                                "Display": "316 min",
+                                "Value": "316",
+                                "Code": "min",
+                                "Raw": 316
+                            },
+                            "logos": [
+                                "http://ahprd1cdn.csgpimgs.com/i2/xDtQ3iRVKqlNT3ylqX-qBX_Ni93B8S5mXHSSUb7o7no/1/image.jpg"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "vehicule": "Airport",
+                    "stops": [
+                        {
+                            "name": "Salt Lake City International",
+                            "dist": {
+                                "Display": "7.6 mi",
+                                "Value": "7.6",
+                                "Code": "[mi_i]",
+                                "Raw": 7.57
+                            },
+                            "drive": {
+                                "Display": "13 min",
+                                "Value": "13",
+                                "Code": "min",
+                                "Raw": 13
+                            }
+                        }
+                    ]
+                }
+            ],
+            "nearbyAmenities": {
+                "restaurants": [
+                    {
+                        "name": "Chick-Fil-A",
+                        "logo": "https://images1.loopnet.com/i2/TKuQ1F2ehNsDnBPc4Wu-WkA884QYvWfT17VC6Jg-DLg/105/image.png",
+                        "distance": "3 min walk",
+                        "price": "$",
+                        "lat": 40.7683177,
+                        "lon": -111.8888515
+                    },
+                    {
+                        "name": "Great Steak",
+                        "logo": "https://images1.loopnet.com/i2/WgVdhxDujlIMYILdnrNHLuWDNAo6XYIMYwp5luDl_Xg/105/image.png",
+                        "distance": "3 min walk",
+                        "price": "$",
+                        "lat": 40.7683177,
+                        "lon": -111.8888515
+                    },
+                    {
+                        "name": "McDonald's",
+                        "logo": "https://images1.loopnet.com/i2/jmlm_riWONpxEuscodTTi-m4wtyrRmlPUPVCLf7Lmdc/105/image.png",
+                        "distance": "3 min walk",
+                        "price": "$",
+                        "lat": 40.7683177,
+                        "lon": -111.8888515
+                    },
+                    {
+                        "name": "Johnny Rockets",
+                        "description": "Burgers",
+                        "logo": "https://images1.loopnet.com/i2/G5taNwy2wMMLn3CHyvPMGjACASxXY5700PtHDpxvlvk/105/image.png",
+                        "distance": "3 min walk",
+                        "price": "$",
+                        "lat": 40.7683177,
+                        "lon": -111.8888515
+                    },
+                    {
+                        "name": "Brio Tuscan Grille",
+                        "logo": "https://images1.loopnet.com/i2/89wXU6flkiMVknx2IrndZNfAQo1E2eGm5rGy9RqtzIM/105/image.png",
+                        "distance": "3 min walk",
+                        "price": "$",
+                        "lat": 40.767552,
+                        "lon": -111.8901246
+                    },
+                    {
+                        "name": "Freshfin Poke",
+                        "description": "Hawaiian",
+                        "distance": "4 min walk",
+                        "price": "$",
+                        "lat": 40.7663185,
+                        "lon": -111.8895164
+                    },
+                    {
+                        "name": "Village Baker",
+                        "logo": "https://images1.loopnet.com/i2/Is3mNlig_pDMbNaYodc13bYAbtTwUnjg6njuR54ATZ0/105/image.jpg",
+                        "distance": "4 min walk",
+                        "price": "$",
+                        "lat": 40.7667778,
+                        "lon": -111.8905044
+                    },
+                    {
+                        "name": "Starbucks",
+                        "description": "Cafe",
+                        "logo": "https://images1.loopnet.com/i2/COgO-KWkNgw3-8c_u6tc9QyPkb4LuG_ZgJlN5CI7Gn8/105/image.png",
+                        "distance": "5 min walk",
+                        "price": "$",
+                        "lat": 40.767381,
+                        "lon": -111.891584
+                    },
+                    {
+                        "name": "Cafe Shambala",
+                        "description": "American",
+                        "distance": "5 min walk",
+                        "price": "$",
+                        "lat": 40.765245,
+                        "lon": -111.887262
+                    },
+                    {
+                        "name": "Bocata",
+                        "logo": "https://images1.loopnet.com/i2/LX2qCYCUhzVhpmnUoyEeMeRI7rsgtDF27eApC45ztcY/105/image.png",
+                        "distance": "5 min walk",
+                        "price": "$",
+                        "lat": 40.7679773,
+                        "lon": -111.8902948
+                    }
+                ],
+                "retail": [
+                    {
+                        "name": "Harmons",
+                        "description": "Supermarket",
+                        "logo": "https://images1.loopnet.com/i2/BIkOm0F_vHaWQf6qtRNHFV_yLW13zpH37wRzm9nyKmU/105/image.png",
+                        "distance": "2 min walk",
+                        "lat": 40.7676935,
+                        "lon": -111.8871295
+                    },
+                    {
+                        "name": "Maverik",
+                        "description": "Convenience Market",
+                        "logo": "https://images1.loopnet.com/i2/lR4bCuXIgQaxizqtarx_qz6FIyo48TCVfguuP2y86vM/105/image.png",
+                        "distance": "4 min walk",
+                        "lat": 40.765353,
+                        "lon": -111.887814
+                    },
+                    {
+                        "name": "Walgreens",
+                        "description": "Drug Store",
+                        "logo": "https://images1.loopnet.com/i2/n6IkVzgHFednZCTn2ivH0CFFtYUmVtNTpBUrCgya9tY/105/image.png",
+                        "distance": "5 min walk",
+                        "lat": 40.767521,
+                        "lon": -111.891569
+                    },
+                    {
+                        "name": "Clarks",
+                        "description": "Shoes",
+                        "logo": "https://images1.loopnet.com/i2/2RfhIYjrqnvdOE1_lAQGgMBm2DJEPWf6XDN0itYuf5U/105/image.png",
+                        "distance": "5 min walk",
+                        "lat": 40.7679773,
+                        "lon": -111.8902948
+                    },
+                    {
+                        "name": "Express",
+                        "description": "Unisex Apparel",
+                        "logo": "https://images1.loopnet.com/i2/GAFzRrPQXQLRHo4npOk_239h6lQTRkT_Em81tr-RdU4/105/image.png",
+                        "distance": "5 min walk",
+                        "lat": 40.7679773,
+                        "lon": -111.8902948
+                    },
+                    {
+                        "name": "ALDO",
+                        "description": "Shoes",
+                        "logo": "https://images1.loopnet.com/i2/QzEBpU70hwhBWJCxodiEU0J1Mpq0X4nerpSsLd_Vkk8/105/image.png",
+                        "distance": "5 min walk",
+                        "lat": 40.7679773,
+                        "lon": -111.8902948
+                    },
+                    {
+                        "name": "FedEx Office",
+                        "description": "Business/Copy/Postal Services",
+                        "logo": "https://images1.loopnet.com/i2/PFdcPHlvx8UJe6ovY8Wnn9NG2BrHHXaFrmKS3TFY8Xs/105/image.png",
+                        "distance": "5 min walk",
+                        "lat": 40.7653844,
+                        "lon": -111.8900686
+                    },
+                    {
+                        "name": "West Elm",
+                        "description": "Furniture/Mattress",
+                        "logo": "https://images1.loopnet.com/i2/0fGRA763D17Bf03EJlweng7S-epAzObMe-q9MXpHzUQ/105/image.png",
+                        "distance": "5 min walk",
+                        "lat": 40.7679773,
+                        "lon": -111.8902948
+                    },
+                    {
+                        "name": "Macy's",
+                        "description": "Other Retail",
+                        "logo": "https://images1.loopnet.com/i2/0VuKOjb5yao9vroI56uyeeKobtpBUB041pQiwQsZwbo/105/image.png",
+                        "distance": "5 min walk",
+                        "lat": 40.7679773,
+                        "lon": -111.8902948
+                    },
+                    {
+                        "name": "Bonobos",
+                        "description": "Men's Apparel",
+                        "logo": "https://images1.loopnet.com/i2/Of4fmk-r9qUPwjDAT_cUHEGZwzBbVIi2RJWuAgcaRH0/105/image.jpg",
+                        "distance": "6 min walk",
+                        "lat": 40.7683262,
+                        "lon": -111.8921388
+                    }
+                ],
+                "hotels": [
+                    {
+                        "name": "Marriott",
+                        "distance": "5 min walk",
+                        "rating": "1 Star",
+                        "roomCount": "359 Rooms",
+                        "lat": 40.764272,
+                        "lon": -111.888644
+                    },
+                    {
+                        "name": "Kimpton",
+                        "distance": "8 min walk",
+                        "rating": "4 Star",
+                        "roomCount": "225 Rooms",
+                        "lat": 40.7647589,
+                        "lon": -111.8918367
+                    },
+                    {
+                        "name": "SureStay Collection",
+                        "distance": "10 min walk",
+                        "rating": "1 Star",
+                        "roomCount": "150 Rooms",
+                        "lat": 40.769792,
+                        "lon": -111.894761
+                    },
+                    {
+                        "name": "Tapestry Collection by Hilton",
+                        "distance": "13 min walk",
+                        "rating": "1 Star",
+                        "roomCount": "73 Rooms",
+                        "lat": 40.763194,
+                        "lon": -111.89447
+                    }
+                ]
+            },
+            "nearbyHospitals": [
+                {
+                    "name": "LDS Hospital",
+                    "Type": "Acute Care",
+                    "distance": "1.1 mi",
+                    "drivingDuration": "3 min drive"
+                },
+                {
+                    "name": "Salt Lake Regional Medical Center",
+                    "Type": "Acute Care",
+                    "distance": "1.5 mi",
+                    "drivingDuration": "4 min drive"
+                },
+                {
+                    "name": "Shriners Hospitals for Children - Salt Lake City",
+                    "Type": "Children's",
+                    "distance": "2.6 mi",
+                    "drivingDuration": "7 min drive"
+                },
+                {
+                    "name": "Primary Childrens Hospital",
+                    "Type": "Children's",
+                    "distance": "3.2 mi",
+                    "drivingDuration": "8 min drive"
+                },
+                {
+                    "name": "University of Utah Hospitals and Clinics",
+                    "Type": "Acute Care",
+                    "distance": "3.3 mi",
+                    "drivingDuration": "9 min drive"
+                }
+            ],
+            "adPackage": "Platinum"
+        }
+    ]
+}

@@ -9,8 +9,15 @@ The data is written to a csv
 import requests
 import json
 import time
-import os
 from datetime import datetime, timedelta
+import os
+import sys
+import code
+
+# os.system(sys.executable + " -m pip install requests") you can install pip packages this way
+
+code.interact(local=locals())
+
 
 
 # example url for coingecko.com

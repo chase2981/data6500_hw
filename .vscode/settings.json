@@ -1,0 +1,14 @@
+{
+    "python.testing.unittestArgs": [
+        "-v",
+        "-s",
+        "./data5500_fall2024",
+        "-p",
+        "*test.py"
+    ],
+    "python.testing.pytestEnabled": true,
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestArgs": [
+        "data5500_fall2024"
+    ]
+}
