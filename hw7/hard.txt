@@ -1,0 +1,67 @@
+Explain the process of deleting a node from a binary search tree in Python. Discuss how you would handle different cases, such as deleting a node with one, or two children. Additionally, explain any potential challenges or edge cases that may arise during the deletion process and how you would address them. 
+
+I did this in the other project it is fairly straightforward once you see the code and wrap your mind around it but here is what I learned on just the description of it.
+
+Deleting a Leaf Node (No Children): The easiest case is deleting a node with no children. Simply remove the node by setting its parent’s reference to it as None.
+
+Deleting a Node with One Child: If the node has one child, the parent of the node to be deleted will link directly to the child, bypassing the node. For example, if a node has a left child, the parent's left pointer will reference the node's left child.
+
+Deleting a Node with Two Children: This is the most complex case. The node must be replaced with either:
+
+Inorder Predecessor (maximum value in the left subtree)
+Inorder Successor (minimum value in the right subtree)
+After selecting a replacement, the node to be deleted is replaced, and the predecessor/successor node is deleted using one of the simpler cases (as it will have at most one child).
+
+Edge Cases:
+
+If the tree is empty, attempting to delete a node results in no action.
+Special care is needed when deleting the root node since it does not have a parent.
+
+It's like this:
+# This function deletes the key and returns the new root
+def deleteNode(root, key):
+
+    # Base Case
+    if root is None:
+        return root
+
+    # If the key to be deleted
+    # is smaller than the root's
+    # key then it lies in left subtree
+    if key < root.key:
+        root.left = deleteNode(root.left, key)
+
+    # If the kye to be delete
+    # is greater than the root's key
+    # then it lies in right subtree
+    elif (key > root.key):
+        root.right = deleteNode(root.right, key)
+
+    # If key is same as root's key, then this is the node
+    # to be deleted
+    else:
+
+        # Node with only one child or no child
+        if root.left is None:
+            temp = root.right
+            root = None
+            return temp
+
+        elif root.right is None:
+            temp = root.left
+            root = None
+            return temp
+
+        # Node with two children:
+        # Get the inorder successor
+        # (smallest in the right subtree)
+        temp = findMin(root.right)
+
+        # Copy the inorder successor's
+        # content to this node
+        root.key = temp.key
+
+        # Delete the inorder successor
+        root.right = deleteNode(root.right, temp.key)
+
+    return root
