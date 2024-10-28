@@ -41,8 +41,9 @@ properties = {
     },
     "Property 3": {
         "image": "190939485_313054793708581_8522967930423099646_n.jpg",
+        "image2": "before.jpg",
         "space_type": "Office",
-        "min_size_sqft": 2600,
+        "min_size_sqft": 2000,
         "years_since_built": 17,
         "months_since_listed": 0,
         "county": "Cache County",
@@ -87,6 +88,9 @@ st.markdown("""
 Select a property below to view its rental prediction. Each property has unique characteristics that factor into its estimated price.
 """)
 
+# Image.open('main.jpg')
+st.image('main.jpg', use_column_width=True)
+
 # Display images as clickable options for properties
 selected_property = None
 for prop_name, details in properties.items():
@@ -101,6 +105,10 @@ if selected_property:
     details = properties[selected_property]
     st.subheader(f"{selected_property} - {details['space_type']} Space")
     st.image(details["image"], use_column_width=True)
+
+    if details.get('image2', None) is not None:
+        st.image(details["image2"], use_column_width=True)
+
     
     st.write(f"**Space Type:** {details['space_type']}")
     st.write(f"**Size (sq ft):** {details['min_size_sqft']}")
@@ -121,6 +129,32 @@ if selected_property:
     st.write("### Predicted Monthly Rental Price")
     st.write(f"The predicted rental price for this property is **${mean_pred:,.2f}** per month.")
     st.write(f"With a 95% confidence interval, this property's price could range from **${lower_bound:,.2f}** to **${upper_bound:,.2f}** per month.")
+
+    # Extract coefficients and display model equation
+    coef = res_full.params
+    model_equation = "Price per Month = "
+
+    # Constructing the equation by iterating through coefficients
+    terms = [f"{coef['const']:.2f}"]  # Start with the intercept
+    for var, val in coef.items():
+        if var != 'const':
+            terms.append(f"{val:+.2f} * {var}")
+
+    model_equation += " ".join(terms)
+
+    # Display model equation in Streamlit
+    st.write("### Model Equation")
+    st.write(model_equation)
+
+    # Fitted values for the original dataset
+    fitted_values = res_full.fittedvalues
+    unit_df['Fitted Price per Month'] = fitted_values
+
+    # Show fitted values as a table in Streamlit
+    st.write("### Fitted Values")
+    st.write(unit_df[['min_size_sqft', 'years_since_built', 'months_since_listed', 'price_per_month', 'Fitted Price per Month']].head())
+
+
 
 # Collapsible panel for model summary
 with st.expander("View Model Summary"):
