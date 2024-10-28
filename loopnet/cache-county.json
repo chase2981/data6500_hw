@@ -1,0 +1,33 @@
+{
+    "status": "success",
+    "message": "Request has been successful.",
+    "data": [
+        {
+            "id": "2760",
+            "display": "Cache County, UT",
+            "geographyType": 9,
+            "address": {
+                "countryCode": "US",
+                "state": "UT",
+                "county": "Cache",
+                "countyRegionName": "Cache",
+                "country": "US"
+            },
+            "location": {
+                "lat": 41.684343,
+                "lon": -111.7837834
+            },
+            "boundingBox": {
+                "lowerRight": {
+                    "lat": 41.369149,
+                    "lon": -111.4015759
+                },
+                "upperLeft": {
+                    "lat": 41.999537,
+                    "lon": -112.1659909
+                }
+            },
+            "matchType": 10
+        }
+    ]
+}

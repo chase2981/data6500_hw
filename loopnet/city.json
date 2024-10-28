@@ -1,0 +1,318 @@
+{
+    "status": "success",
+    "message": "Request has been successful.",
+    "data": [
+        {
+            "id": "22385",
+            "display": "Logan, UT",
+            "geographyType": 2,
+            "address": {
+                "city": "Logan",
+                "countryCode": "US",
+                "state": "UT",
+                "country": "US"
+            },
+            "location": {
+                "lat": 41.6841685,
+                "lon": -111.67956845
+            },
+            "boundingBox": {
+                "lowerRight": {
+                    "lat": 41.368801,
+                    "lon": -111.401577
+                },
+                "upperLeft": {
+                    "lat": 41.999536,
+                    "lon": -111.9575599
+                }
+            },
+            "matchType": 3
+        },
+        {
+            "id": "9359",
+            "display": "Loganville, GA",
+            "geographyType": 2,
+            "address": {
+                "city": "Loganville",
+                "countryCode": "US",
+                "state": "GA",
+                "country": "US"
+            },
+            "location": {
+                "lat": 33.8093905,
+                "lon": -83.88935065
+            },
+            "boundingBox": {
+                "lowerRight": {
+                    "lat": 33.719142,
+                    "lon": -83.7877612
+                },
+                "upperLeft": {
+                    "lat": 33.899639,
+                    "lon": -83.9909401
+                }
+            },
+            "matchType": 3
+        },
+        {
+            "id": "14903",
+            "display": "Logansport, IN",
+            "geographyType": 2,
+            "address": {
+                "city": "Logansport",
+                "countryCode": "US",
+                "state": "IN",
+                "country": "US"
+            },
+            "location": {
+                "lat": 40.743059,
+                "lon": -86.3746304
+            },
+            "boundingBox": {
+                "lowerRight": {
+                    "lat": 40.619459,
+                    "lon": -86.16749
+                },
+                "upperLeft": {
+                    "lat": 40.866659,
+                    "lon": -86.5817708
+                }
+            },
+            "matchType": 3
+        },
+        {
+            "id": "10799",
+            "display": "Logan Township, NJ",
+            "geographyType": 2,
+            "address": {
+                "city": "Logan Township",
+                "countryCode": "US",
+                "state": "NJ",
+                "country": "US"
+            },
+            "location": {
+                "lat": 39.8659625,
+                "lon": -74.725248
+            },
+            "boundingBox": {
+                "lowerRight": {
+                    "lat": 39.547799,
+                    "lon": -74.390198
+                },
+                "upperLeft": {
+                    "lat": 40.184126,
+                    "lon": -75.060298
+                }
+            },
+            "matchType": 3
+        },
+        {
+            "id": "34886",
+            "display": "Logan, OH",
+            "geographyType": 2,
+            "address": {
+                "city": "Logan",
+                "countryCode": "US",
+                "state": "OH",
+                "country": "US"
+            },
+            "location": {
+                "lat": 39.525655,
+                "lon": -82.4096205
+            },
+            "boundingBox": {
+                "lowerRight": {
+                    "lat": 39.389414,
+                    "lon": -82.2461332
+                },
+                "upperLeft": {
+                    "lat": 39.661896,
+                    "lon": -82.5731078
+                }
+            },
+            "matchType": 3
+        },
+        {
+            "id": "1844",
+            "display": "Logandale, NV",
+            "geographyType": 2,
+            "address": {
+                "city": "Logandale",
+                "countryCode": "US",
+                "state": "NV",
+                "country": "US"
+            },
+            "location": {
+                "lat": 36.628015,
+                "lon": -114.4768241
+            },
+            "boundingBox": {
+                "lowerRight": {
+                    "lat": 36.560844,
+                    "lon": -114.4053731
+                },
+                "upperLeft": {
+                    "lat": 36.695186,
+                    "lon": -114.5482751
+                }
+            },
+            "matchType": 3
+        },
+        {
+            "id": "49822",
+            "display": "Logan, WV",
+            "geographyType": 2,
+            "address": {
+                "city": "Logan",
+                "countryCode": "US",
+                "state": "WV",
+                "country": "US"
+            },
+            "location": {
+                "lat": 37.8445005,
+                "lon": -82.03451345
+            },
+            "boundingBox": {
+                "lowerRight": {
+                    "lat": 37.767321,
+                    "lon": -81.922851
+                },
+                "upperLeft": {
+                    "lat": 37.92168,
+                    "lon": -82.1461759
+                }
+            },
+            "matchType": 3
+        },
+        {
+            "id": "48556",
+            "display": "Logansport, LA",
+            "geographyType": 2,
+            "address": {
+                "city": "Logansport",
+                "countryCode": "US",
+                "state": "LA",
+                "country": "US"
+            },
+            "location": {
+                "lat": 32.011946,
+                "lon": -93.9544456
+            },
+            "boundingBox": {
+                "lowerRight": {
+                    "lat": 31.885879,
+                    "lon": -93.8660782
+                },
+                "upperLeft": {
+                    "lat": 32.138013,
+                    "lon": -94.042813
+                }
+            },
+            "matchType": 3
+        },
+        {
+            "id": "24646",
+            "display": "Loganville, WI",
+            "geographyType": 2,
+            "address": {
+                "city": "Loganville",
+                "countryCode": "US",
+                "state": "WI",
+                "country": "US"
+            },
+            "location": {
+                "lat": 43.3898325,
+                "lon": -90.03633805
+            },
+            "boundingBox": {
+                "lowerRight": {
+                    "lat": 43.318467,
+                    "lon": -89.934682
+                },
+                "upperLeft": {
+                    "lat": 43.461198,
+                    "lon": -90.1379941
+                }
+            },
+            "matchType": 3
+        },
+        {
+            "id": "52263",
+            "display": "Logan, NJ",
+            "geographyType": 2,
+            "address": {
+                "city": "Logan",
+                "countryCode": "US",
+                "state": "NJ",
+                "country": "US"
+            },
+            "location": {
+                "lat": 39.795016,
+                "lon": -75.3576714
+            },
+            "boundingBox": {
+                "lowerRight": {
+                    "lat": 39.745664,
+                    "lon": -75.286282
+                },
+                "upperLeft": {
+                    "lat": 39.844368,
+                    "lon": -75.4290608
+                }
+            },
+            "matchType": 3
+        },
+        {
+            "id": "35671",
+            "display": "Loganville, PA",
+            "geographyType": 2,
+            "address": {
+                "city": "Loganville",
+                "countryCode": "US",
+                "state": "PA",
+                "country": "US"
+            },
+            "location": {
+                "lat": 39.8544275,
+                "lon": -76.70591835
+            },
+            "boundingBox": {
+                "lowerRight": {
+                    "lat": 39.841964,
+                    "lon": -76.6943888
+                },
+                "upperLeft": {
+                    "lat": 39.866891,
+                    "lon": -76.7174479
+                }
+            },
+            "matchType": 3
+        },
+        {
+            "id": "28631",
+            "display": "Logan, AL",
+            "geographyType": 2,
+            "address": {
+                "city": "Logan",
+                "countryCode": "US",
+                "state": "AL",
+                "country": "US"
+            },
+            "location": {
+                "lat": 34.124058,
+                "lon": -87.04032245
+            },
+            "boundingBox": {
+                "lowerRight": {
+                    "lat": 34.070505,
+                    "lon": -86.9445191
+                },
+                "upperLeft": {
+                    "lat": 34.177611,
+                    "lon": -87.1361258
+                }
+            },
+            "matchType": 3
+        }
+    ]
+}
