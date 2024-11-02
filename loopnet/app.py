@@ -1,6 +1,6 @@
 import os
 
-# os.system('pip install streamlit pandas statsmodels folium geopy matplotlib')
+os.system('pip install streamlit pandas statsmodels folium geopy matplotlib')
 
 import streamlit as st
 import pandas as pd
@@ -17,7 +17,7 @@ import seaborn as sns
 # Load your dataset here
 spaces_df = pd.read_csv('/Users/light/code/fall2024/data6500/loopnet/final7.csv')  # Update the path to your dataset
 print(spaces_df.columns.str.strip())
-model = sm.OLS.from_formula("price_per_month ~ min_size_sqft + years_since_built", data=spaces_df).fit()
+model = sm.OLS.from_formula("price_per_month ~ min_size_sqft + years_since_built + C(space_type) + C(county)", data=spaces_df).fit()
 
 print(model.summary())
 
@@ -34,15 +34,15 @@ def predict_price(sqft, years_since_built, space_type, county):
     data = {
         "min_size_sqft": [sqft],
         "years_since_built": [years_since_built],
-        # "space_type": [space_type],
-        # "county": [county]
+        "space_type": [space_type],
+        "county": [county]
     }
     df = pd.DataFrame(data)
-    # df = pd.get_dummies(df, columns=["space_type", "county"], drop_first=True)
+    df = pd.get_dummies(df, columns=["space_type", "county"], drop_first=True)
     # for col in model.model.exog_names:
     #     if col not in df.columns:
     #         df[col] = 0
-    prediction = model.get_prediction([1, 2710, 17])
+    prediction = model.get_prediction(df.iloc[0])
     return prediction.summary_frame(alpha=0.05)
 
 # Prediction Output

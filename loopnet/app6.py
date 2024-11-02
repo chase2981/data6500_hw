@@ -42,7 +42,7 @@ properties = {
     "Property 3": {
         "image": "190939485_313054793708581_8522967930423099646_n.jpg",
         "image2": "before.jpg",
-        "space_type": "Office",
+        "space_type": "Retail",
         "min_size_sqft": 2000,
         "years_since_built": 17,
         "months_since_listed": 0,
